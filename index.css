@@ -1,0 +1,50 @@
+.card{
+    width: 550px;
+    height: 500px;
+    background-color:rgba(0, 0, 0, 0.693);
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    padding: 40px;
+    border-radius: 50px 50px;
+}
+.name{
+    color: white;
+    font-size: 20px;
+}
+.location{
+    color:hsl(75, 94%, 57%);
+    font-size: 15px;
+}
+.profile-picture{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.social-links a{
+    display: block;
+    margin-bottom: 10px;
+    gap: 25px;
+
+}
+.social-links a{
+    text-decoration: none;
+    color: white;
+    background-color: hsla(80, 5%, 51%, 0.303);
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+.social-links a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    transition: 0.3s;
+}
+img{
+    margin-left: 20px;
+}
+body{
+    text-align: center;
+}
